@@ -4,8 +4,7 @@ int sqrt();
 
 int main()
 {
-    squareDouble()
-
+    squareDouble();
     return 0;
 };
 
