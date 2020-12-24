@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-char reverseString();
+int reverseString();
 
 int main() {
     char newString = reverseString();
@@ -8,8 +8,8 @@ int main() {
 }
 
 //reverses a string and returns it
-char reverseString() {
-    char string[100];
+int reverseString() {
+    static char string[100];
 
     printf("Please enter the string to be reversed\n");
     fgets(string, sizeof(string), stdin);
@@ -19,6 +19,7 @@ char reverseString() {
 
     // divide str length in two => swap from both ends until reaching the middle of the string
     j = j / 2;
+    int isAnagram;
     while (j >= 0) 
     {
         string[(strlen(string)) + 1] = string[i];
@@ -28,7 +29,16 @@ char reverseString() {
         --i;
         ++t;
         --j;
+        if (string[i]!=string[t]){
+            isAnagram = 0;
+            }
+        else {
+            isAnagram =1;
+            }
     }
+    if (isAnagram == 1){
+       printf("Oh we got an annagram!\n");
+    } 
     puts(string);
     
     return 0;
