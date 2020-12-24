@@ -11,7 +11,7 @@ int main()
     //mallocation();
     callocation();
     free(ptr);
-    freeWilly();
+    freeWilly(); // jump willy jump and be free:)
     return 0;
 }
 

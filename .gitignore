@@ -1,0 +1,10 @@
+# C
+ */*
+*.out
+!*/*.c
+!*/*.h 
+!*/
+ !.gitignore
+ *.xcworkspace/
+ tempCodeRunnerFile.c
+  tempCodeRunnerFile

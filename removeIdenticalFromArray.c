@@ -6,7 +6,7 @@
 
 //assumptions:  array is unsigned int (can be everything though)
 //              array length is given
-//              required extra memory? NONE;
+//              required extra memory? No;
 unsigned int array[12] = {1, 2, 3, 3, 7, 4, 4, 3, 5, 7, 6, 6};
 unsigned int *arrayPtr = array;
 int arrayLength = 11;
@@ -16,7 +16,7 @@ int shiftValues (unsigned int *, int, int,int, int, int);
 
 int main()
 {
-    int array[arrayLength] = removeIdentical(array);
+    array[arrayLength] = removeIdentical(array);
     return 0;
 }
 

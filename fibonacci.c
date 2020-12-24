@@ -10,6 +10,8 @@ int main (){
         printf("%d ", term);
         nextTerm = term + term2;
         term = term2;
-        term2 = nextTerm;
+        term2 = nextTerm;    
     }
+
+    return 0;
 }
