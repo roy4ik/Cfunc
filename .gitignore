@@ -1,0 +1,9 @@
+# C
+ */*
+*.out
+!*/*.c
+!*/*.h 
+!*/
+ !.gitignore
+ *.xcworkspace
+ 

@@ -2,15 +2,13 @@
 #include <string.h>
 char reverseString();
 
-int main()
-{
-    reverseString();
+int main() {
+    char newString = reverseString();
     return 0;
 }
 
 //reverses a string and returns it
-char reverseString()
-{
+char reverseString() {
     char string[100];
 
     printf("Please enter the string to be reversed\n");
@@ -33,5 +31,5 @@ char reverseString()
     }
     puts(string);
     
-    return string;
+    return 0;
 }

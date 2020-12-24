@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <math.h>
-int sqrt();
 
-int main()
-{
+int squareDouble();
+
+int main(){
     squareDouble();
     return 0;
 };
 
-int squareDouble()
-{
+int squareDouble(){
     double x, power, root;
 
     printf("Enter the number of which you want to find the square root: \n");
@@ -32,4 +31,5 @@ int squareDouble()
 
     return 0;
 }
+
 
