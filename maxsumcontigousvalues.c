@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-// You have an array of numbers, calculate the maximum sum of cotigous numbers in the array
+// You have an array of numbers, calculate the maximum sum of contigious numbers in the array
 
-// contigous numbers are adjacent numbers such as the 3,4,5, in 1,2,3,4,5,6.
+// contigious numbers are adjacent numbers such as the 3,4,5, in 1,2,3,4,5,6.
 
-int arrayOfContiguous[] = {100, 2, -30, 4, 5, 60, 7}; // max sum 102
+int arrayOfContiguous[] = {100, 2, -30, 400, 5, 60, 7}; // max sum 465
 int sizeofContigiousArray = -1;
 
 //get the array.

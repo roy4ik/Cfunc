@@ -26,6 +26,7 @@ int dataEntry(int p)
 {
     printf("Enter the numbers you need to enter seperated by the 'Enter' button: \n");
     scanNumbers(p);
+
     return 0;
 }
 
@@ -40,6 +41,7 @@ int scanNumbers(p)
         printf("Parameter number %d \n", temp);
         scanf(" %d, ", &x[i]);
     }
+
     return 0;
 }
 int correctDirection()
@@ -80,6 +82,7 @@ int correctDirection()
             printf("\n\n");
         }
     }
+    
     return 0;
 }
 
